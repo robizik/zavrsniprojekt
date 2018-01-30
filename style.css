@@ -186,7 +186,7 @@ body {
 	background-size: cover;
 }
 .footer img {
-	margin: 100px 0 0 100px;
+	margin: 50px 0 0 100px;
 }	
 .footer ul {
 	margin-top: 100px;
@@ -196,7 +196,7 @@ body {
 	display: inline-block;
 }
 .footer ul li a {
-	color: #c95126;
+	color: #fff;
 	font-size: 18pt;
 	padding-left: 30px;
 	padding-right: 30px;
