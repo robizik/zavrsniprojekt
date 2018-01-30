@@ -9,7 +9,7 @@ body {
 }
 .header a {
 	font-size: 24pt;
-	color: #ffff00;
+	color: black;
 	margin-top: 50px;
 	margin-left: 50px;
 	display: block;
@@ -18,14 +18,15 @@ body {
 }
 .header p {
 	font-size: 42pt;
-	color: #ffff00;
-	text-transform: lowercase;
+	color: black;
+	text-transform: uppercase;
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	margin: 0;
-	font-family: 'Vollkorn', serif;
+	font-family: 'Vollkorn', serif, bold;
+	
 
 }
 
@@ -48,15 +49,15 @@ body {
 
 .main-menu {
 	width: 100%;
-	background-color: #0000ff;
+	background-color: #006eff;
 }
 .main-menu li {
 	display: inline-block;
 	height: 100px;
-	transition: 3s;
+	transition: 1s;
 }
 .main-menu li a {
-	color: #ffff00;
+	color: black;
 	font-size: 18pt;
 	padding-left: 40px;
 	padding-right: 40px;
@@ -64,7 +65,7 @@ body {
 	display: block;
 }
 .main-menu li:hover {
-	background-color: #00ff00;
+	background-color: black;
 }
 .main-menu li:hover a {
 	text-decoration: none;
@@ -72,36 +73,36 @@ body {
 }
 
 .hamburger {
+	color: white;
 	display: none;
 	line-height: 100px;
-	background-color:  #0000ff;
-	padding-right: 50px;
-	text-align: right;
-	
+	background-color: #006eff;
+	padding-left: 50px;
+	text-align: left;	
 }
 
 .hamburger .glyphicon {
 	font-size: 24pt;
 	cursor: pointer;
-	color: #ffff00;
 }
 
-@media screen and (max-width:760px) {
-	.main-menu {
-		padding: 0;
-		display: none;
-	}
+
+@media screen and (max-width:760px){
 	.main-menu li {
-		display: block;
 		text-align: center;
+		display: block;
 		width: 100%;
 	}
-}
-
-    .hamburger {
-		display: block;
-		background-color:  #0000ff;
+	.main-menu {
+		padding: 0;
+		text-align: center;
+		display: none;
 	}
+	
+	.hamburger {
+		display: block;
+	}
+}
 
 .gallery img {
 	width: 100%;	
@@ -143,14 +144,14 @@ body {
 
 
 .contact-form {	
-	background-color: #0066ff;
+	background-color: #006eff;
 	padding: 100px;
 }
 .contact-form h1 {
 	font-size: 24pt;
 	margin-bottom: 40px;
 	text-transform: uppercase;
-	color: #ffff00;
+	color: black;
 }
 
 .form-control {
@@ -163,8 +164,8 @@ body {
 }
 .btn, .btn:hover {
 	padding: 15px 25px;
-	background-color: #ffff00;
-	color: #0000ff;
+	background-color: black;
+	color: #006eff;
 	border-radius: 0;
 }
 .btn-default {

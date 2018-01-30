@@ -24,8 +24,12 @@
 					<a href="index.html">Moj Portfolio</a>
 					<p>Kontakt</p>
 				</div>
+			<div class="hamburger">
+				<span class="glyphicon glyphicon-align-justify"></span>
+			</div>
 			</div>
 			<div class="row">
+
 				<ul class="main-menu">
 					<li><a href="index.html">Početna</a></li>
 					<li><a href="about_me.html">O meni</a></li>
@@ -128,5 +132,10 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>		
 		<script src="bootstrap/js/bootstrap.min.js"></script>
 		<script src="lightbox/js/lightbox.js"></script>
+				<script>
+		   $('.hamburger').click(function(){
+		       $('.main-menu').slideToggle();
+		   });
+		</script>
 	</body>
 </html>
